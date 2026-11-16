@@ -28,9 +28,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-#media
+# Tetap abaikan media seed
 /core/seed_media/
-/core/static/images/
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
