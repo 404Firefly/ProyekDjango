@@ -35,7 +35,7 @@ body {
     color: var(--ink);
 
     background-color: var(--paper);
-    background-image: url("/static/images/backgrounds.png");
+    background-image: url("/static/images/backgrounds.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1391,7 +1391,7 @@ img { max-width: 100%; }
             rgba(6, 61, 39, 0.45) 0%,
             rgba(6, 61, 39, 0.58) 100%
         ),
-        url("../images/footer.png") center top / cover no-repeat,
+        url("../images/footer.webp") center top / cover no-repeat,
         var(--green-800);
 
     border-top: 5px solid var(--gold-500);
