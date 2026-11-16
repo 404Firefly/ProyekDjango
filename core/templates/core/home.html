@@ -428,23 +428,10 @@
                                 {% endif %}
 
                             {% else %}
-                            {% if field.label|lower == "misi" %}
-
-                                <ol class="mission-list">
-                                    {% for item in field.nilai.splitlines %}
-                                        {% if item %}
-                                            <li>{{ item }}</li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ol>
-
-                            {% else %}
 
                                 <p class="field-value">{{ field.nilai }}</p>
 
                             {% endif %}
-
-                        {% endif %}
 
                         </div>
 
